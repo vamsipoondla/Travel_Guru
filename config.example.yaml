@@ -1,0 +1,19 @@
+# Flight Compensation Generator Configuration
+# Copy this file to config.yaml and fill in your API keys
+
+api:
+  # AviationStack API key (https://aviationstack.com/)
+  # Free tier available with limited requests
+  aviationstack_key: "your_aviationstack_api_key_here"
+
+  # FlightAware API credentials (https://flightaware.com/commercial/aeroapi/)
+  # Requires paid subscription
+  flightaware_key: "your_flightaware_api_key_here"
+  flightaware_username: "your_flightaware_username_here"
+
+# Application settings
+default_language: "en"
+
+# EU regulation allows claims up to 6 years (varies by country)
+# UK: 6 years, Germany: 3 years, Belgium: 1 year
+claim_years_limit: 6

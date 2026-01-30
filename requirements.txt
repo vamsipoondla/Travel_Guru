@@ -1,0 +1,17 @@
+# EU Flight Compensation Claim Generator
+# Required dependencies
+
+# Configuration file parsing
+PyYAML>=6.0
+
+# HTTP requests for flight API integration
+requests>=2.28.0
+
+# Clipboard functionality
+pyperclip>=1.8.0
+
+# Note: tkinter is part of Python's standard library
+# but may need to be installed separately on some Linux distributions:
+# Ubuntu/Debian: sudo apt-get install python3-tk
+# Fedora: sudo dnf install python3-tkinter
+# Arch: sudo pacman -S tk
